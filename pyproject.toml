@@ -1,0 +1,45 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name        = "CEval"
+version     = "1.1.0"
+description = "A framework for evaluating counterfactual explanations."
+readme      = "README.md"
+license     = { text = "MIT" }
+authors     = [{ name = "Betül Bayrak", email = "betul.bayrak@ntnu.no" }]
+keywords    = [
+    "explainable AI", "XAI", "counterfactual explanations",
+    "machine learning", "evaluation", "interpretability",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Science/Research",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scikit-learn>=1.1",
+    "scipy>=1.9",
+    "gower>=0.1.2",
+    "category-encoders>=2.6",
+]
+
+[project.urls]
+Homepage      = "https://github.com/b-bayrak/CEval"
+Documentation = "https://github.com/b-bayrak/CEval#readme"
+Paper         = "https://ieeexplore.ieee.org/document/10550910"
+"Bug Tracker" = "https://github.com/b-bayrak/CEval/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ceval*"]
