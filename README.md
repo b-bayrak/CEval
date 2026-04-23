@@ -250,9 +250,9 @@ If you use CEval in your research, please cite:
 ## Related Work
 
 This package is part of a broader research effort on counterfactual explanation methods:
+- **PertCF** — Perturbation-based Counterfactual Explainer ([Paper](https://folk.idi.ntnu.no/kerstinb/paper/2023-SGAI-PertCF-BayrakBach.pdf) | [Code](https://github.com/b-bayrak/PertCF))
+- **PerCE** — Hierarchical Perturbation-Based Counterfactual Explanations for Multivariate Time Series Classification ([Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11271748))
 
-- **PerCE** — Personalised Counterfactual Explanations ([IEEE](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11271748))
-- **PertCF** — Perturbation-based Counterfactual Explainer ([Paper](https://folk.idi.ntnu.no/kerstinb/paper/2023-SGAI-PertCF-BayrakBach.pdf) | [Code](https://github.com/b-bayrak/PertCF-Explainer))
 
 ---
 
